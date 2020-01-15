@@ -29,11 +29,36 @@
                 </div>
             </nav>
 
-            <h1><u>Pagina principal</u></h1>
-            <img src="Imagenes/SLD1.jpg" alt="">
-        </div>
+            <h1><u>Registro de usuarios</u></h1>
+
+            <form>
+                <div class="form-group">
+                    <label for="IdUsuarioLabel">Codigo</label>
+                    <input type="number" class="form-control col-4" Id="IdUsuario">
+
+                    <label for="NombreLabel">Nombre</label>
+                    <input type="text" class="form-control col-4" Id="Nombre">
+
+                    <label for="UsuarioLabel">Usuario</label>
+                    <input type="text" class="form-control col-4" Id="Usuario">
+
+                    <label for="exampleInputPassword1">Contraeña</label>
+                    <input type="password" class="form-control col-4" id="exampleInputPassword1">
+
+                    <label for="exampleInputPassword1">Confirar contraseña</label>
+                    <input type="password" class="form-control col-4" id="exampleInputPassword1">
+
+                    <label for="NivelDeUsuarioLabel">Nivel de usuario</label>
+                    <select class="form-control col-4">
+                        <option>Usuario</option>
+                        <option>Administrador</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
     </body>
 
+    
     <footer style="background-color: lightgray;">
         Hecho por: Jonathan Maria parra
     </footer>
